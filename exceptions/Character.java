@@ -1,4 +1,3 @@
-package exceptions;
 
 public abstract class Character implements Movable {
 
