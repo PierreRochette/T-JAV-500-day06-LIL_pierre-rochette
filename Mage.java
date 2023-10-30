@@ -11,10 +11,10 @@ public class Mage extends Character{
 
     @Override
     public void attack(String weapon) {
-        super.attack(weapon);
         if(!weapon.equalsIgnoreCase("magic") &&
         !weapon.equalsIgnoreCase("wand")) {
         } else {
+            super.attack(weapon);
             System.out.println(name + ": Feel the power of my " + weapon + "!");
         }
     }

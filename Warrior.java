@@ -11,10 +11,11 @@ public class Warrior extends Character {
 
     @Override
     public void attack(String weapon) {
-        super.attack(weapon);
+
         if(!weapon.equalsIgnoreCase("hammer") &&
         !weapon.equalsIgnoreCase("sword")) {
         } else {
+            super.attack(weapon);
             System.out.println(name + ": I'll crush you with my " + weapon + "!");
         }
     }
