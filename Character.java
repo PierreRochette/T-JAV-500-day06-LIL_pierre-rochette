@@ -1,7 +1,7 @@
 public abstract class Character implements Movable {
 
     protected String name;
-    protected String RPGClass;
+    protected final String RPGClass;
     protected int life;
     protected int agility;
     protected int strength;
