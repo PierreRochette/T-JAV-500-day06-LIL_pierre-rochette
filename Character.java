@@ -46,4 +46,8 @@ public abstract class Character implements Movable {
     public void moveBack() {
         System.out.println(getName() + ": moves back");
     }
+
+    public final void unsheathe() {
+        System.out.println(getName() + ": unsheathes his weapon.");
+    }
 }
